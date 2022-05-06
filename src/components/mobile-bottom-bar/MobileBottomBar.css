@@ -1,0 +1,18 @@
+.mobile-bottom-bar {
+    display: none;
+}
+
+@media screen and (max-width: 614px) {
+    .mobile-bottom-bar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 54px;
+        background-color: #fff;
+        width: 100%;
+        border-top: 1px solid #dbdbdb;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}

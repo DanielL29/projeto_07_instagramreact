@@ -1,0 +1,93 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 60px;
+    border-radius: 3px;
+}
+  
+.card-top {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+}
+  
+.card-top img {
+    width: 32px;
+    cursor: pointer;
+}
+  
+.card-top h3 {
+    flex: 1;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+  
+.card-top ion-icon {
+    width: 16px;
+}
+  
+.card-image,
+.card-image img,
+.card-image video {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+}
+  
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+  
+.card-info .likes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 12px;
+}
+  
+.card-info .likes img {
+    width: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+  
+.card-info .likes p {
+    font-size: 14px;
+    font-weight: 300;
+}
+  
+.info-icons {
+    display: flex;
+    align-items: center;
+  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 12px;
+}
+  
+.info-icons div ion-icon:nth-child(1) {
+    width: 25px;
+    height: 25px;
+}
+  
+.info-icons div {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+  
+.info-icons div ion-icon {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 614px) {
+    .posts {
+      width: 100%;
+    }
+}

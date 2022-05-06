@@ -1,0 +1,73 @@
+.sidebar {
+    position: fixed;
+    margin-top: 25px;
+    margin-left: 28px;
+    width: 293px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.perfil h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+    cursor: pointer;
+}
+
+.perfil p {
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+}
+
+.perfil div {
+    margin-left: 17px;
+}
+
+.sugestions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.sugestions h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8e8e8e;
+    font-weight: 500;
+}
+
+.sugestions h4 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #262626;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.to-follow {
+    margin-bottom: 40px;
+}
+
+.about {
+    width: 300px;
+}
+
+.about h5 {
+    font-size: 11px;
+    font-weight: 400;
+    color: #c7c7c7;
+    margin-bottom: 20px;
+    line-height: 15px;
+}
+
+@media screen and (max-width: 935px) {
+    .sidebar {
+      display: none;
+    }
+}

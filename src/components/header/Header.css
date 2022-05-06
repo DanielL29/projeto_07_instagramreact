@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  height: 54px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #dbdbdb;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.instagram-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 935px;
+}
+
+.instagram-header-mobile {
+  display: none;
+}
+
+.instagram-box {
+  display: flex;
+  align-items: center;
+}
+
+ion-icon {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+
+ion-icon:hover {
+  color: #8e8e8e;
+}
+
+strong {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.instagram-box div {
+  margin: 0 10px;
+  width: 1px;
+  height: 22px;
+  background-color: #dbdbdb;
+}
+
+.instagram-box img {
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.instagram-header input {
+  height: 28px;
+  width: 215px;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  color: #979797;
+  outline: none;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.extra-icons {
+  width: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 935px) {
+  .instagram-header {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .instagram-header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: #fff;
+    height: 54px;
+    position: fixed;
+    width: 100%;
+    padding: 0 20px;
+  }
+}

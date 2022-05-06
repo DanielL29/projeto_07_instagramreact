@@ -1,0 +1,35 @@
+.follow-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.follow-card div {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.follow-card h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.follow-card h3:hover {
+    text-decoration: underline;
+}
+
+.follow-card h4 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.follow-card h2 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #139ef2;
+    font-weight: 500;
+    cursor: pointer;
+}

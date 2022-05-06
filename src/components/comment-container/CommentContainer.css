@@ -1,0 +1,70 @@
+.comments {
+    padding-left: 15px;
+    padding-right: 12px;
+}
+
+.comments strong {
+    margin-right: 5px;
+}
+
+.comments h3, .comments p {
+    display: flex;
+}
+
+.comments p,
+.comments h3,
+.comments h4 {
+    margin-bottom: 15px;
+}
+
+.comments h3,
+.comments p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.comments h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8e8e8e;
+    cursor: pointer;
+}
+
+.comments h6 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #8e8e8e;
+    margin-bottom: 20px;
+}
+
+.publish-comment {
+    display: flex;
+    align-items: center;
+
+    padding: 15px;
+    border-top: 1px solid #efefef;
+}
+
+.publish-comment input {
+    border: none;
+    outline: none;
+    text-align: start;
+    font-size: 14px;
+    font-weight: 400;
+    color: #939393;
+    flex: 1;
+    margin-left: 15px;
+}
+
+.publish-comment h2 {
+    color: #b2dffc;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.publish-comment h2:hover {
+    color: #0095f6;
+    transition: all ease-in-out 300ms;
+}

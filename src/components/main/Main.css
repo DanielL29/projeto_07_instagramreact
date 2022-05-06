@@ -1,0 +1,44 @@
+main {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+.instagram-content {
+  display: flex;
+
+  width: 935px;
+  margin-top: 88px;
+}
+
+.posts {
+  width: 614px;
+  height: 100%;
+}
+
+.cards {
+  margin-top: 24px;
+  width: 100%;
+}
+
+@media screen and (max-width: 935px) {
+  .instagram-content {
+    width: 614px;
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .instagram-content {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .cards {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .posts {
+    width: 100%;
+  }
+}
