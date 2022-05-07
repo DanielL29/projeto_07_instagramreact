@@ -75,6 +75,24 @@
     width: 25px;
     height: 25px;
 }
+
+.info-icons.red div ion-icon:nth-child(1) {
+    color: red;
+    animation: scaleImg 300ms;
+    animation-timing-function: linear;
+}
+
+@keyframes scaleImg {
+    0% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
   
 .info-icons div {
     display: flex;
