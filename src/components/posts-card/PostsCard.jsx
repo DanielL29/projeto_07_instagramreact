@@ -11,7 +11,7 @@ export default function PostsCard(props) {
                 <h3>{props.userName}</h3>
                 <ion-icon name="ellipsis-horizontal"></ion-icon>
             </div>
-            <div className="card-image" onClick={() => setColor(!color)}>
+            <div className="card-image" onClick={() => setColor(true)}>
                 {props.isVideo ? (
                     <video autoPlay muted>
                         <source src={`./assets/videos/${props.postImage}.mp4`} type="video/mp4" />
